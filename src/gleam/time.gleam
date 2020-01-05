@@ -1,29 +1,24 @@
 pub type Weekday {
-  Mon
-  Tue
-  Wed
-  Thu
-  Fri
-  Sat
-  Sun
+  Monday
+  Tuesday
+  Wednesday
+  Thursday
+  Friday
+  Saturday
+  Sunday
 };
 
 pub type Month {
-  Jan
-  Feb
-  Mar
-  Apr
+  January
+  February
+  March
+  April
   May
-  Jun
-  Jul
-  Aug
-  Sep
-  Oct
-  Nov
-  Dec
-};
-
-// TODO: Make opaque
-pub type Posix {
-  Posix(seconds: Int)
+  June
+  July
+  August
+  September
+  October
+  November
+  December
 };
