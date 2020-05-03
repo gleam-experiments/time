@@ -105,7 +105,7 @@ pub fn is_valid_date_type(date: Date) -> Bool {
 /// ## Examples
 /// ```gleam
 /// new(2020, 04, 20) == Ok(Date((2020, 04, 20))
-/// new(-1, -1, -1) == Error("Parameters are invalid for a date.")
+/// new(-1, 11, 29) == Error("Parameters are invalid for a date.")
 /// ```
 ///
 pub fn new(year: Int, month: Int, day: Int) -> Result(Date, String) {
